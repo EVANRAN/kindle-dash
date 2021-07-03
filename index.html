@@ -42,8 +42,10 @@
       padding-top: 40px;
       font-size: 6rem;
     }
-    .page{
+
+    .page {
       transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
     }
   </style>
 </head>
@@ -84,7 +86,7 @@
         clearTimeout(uuid)
       }, delay * 1000);
     }
-    
+
     var date = update()
     correctTimer(date)
   </script>
